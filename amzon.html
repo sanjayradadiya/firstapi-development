@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Grid</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <style>
+      body {
+        margin: 0px;
+        padding: 0px;
+        color: white;
+      }
+      header {
+        margin: 2px;
+        padding: 2px;
+        background-color: black;
+      }
+      .heading {
+        display: flex;
+      }
+      .logo {
+        margin-top: 2px;
+        margin-left: 14px;
+      }
+      h1 {
+        margin: 2px;
+        font-size: 34px;
+      }
+      .delever {
+        margin-left: 6px;
+      }
+      .content {
+        display: flex;
+        position: static;
+        width: fit-content;
+        float: none;
+      }
+      .padded {
+        padding: 0 9px 0 9px;
+        margin: 5px 2px 5px 0;
+        display: flex;
+      }
+      #icon {
+        background-position: -71px -378px;
+        width: 15px;
+        height: 18px;
+        padding: 8px;
+      }
+      .india1 {
+        margin-top: 3px;
+        flex-flow: column nowrap;
+        display: flex;
+        position: static;
+        float: none;
+      }
+      .delver1 {
+        margin: 0px;
+        padding-right: 0px;
+        color: rgb(204, 204, 204);
+      }
+      .india {
+        color: rgb(255, 255, 255);
+        padding-bottom: 1px;
+        padding-right: 0px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="heading">
+        <div class="logo">
+          <h1 class>amazon</h1>
+        </div>
+        <div class="delever">
+          <span class="content">
+            <div class="padded">
+              <div class="fa fa-map-marker" id="icon"></div>
+              <div class="india1">
+                <span class="delver1">Delever to</span>
+                <span class="india">India</span>
+              </div>
+            </div>
+          </span>
+        </div>
+        <div class="fill">
+          <div class="search">
+            <form action="" id="searchbarform">
+              <input type="text" placeholder="Search.." name="search" />
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </header>
+  </body>
+</html>

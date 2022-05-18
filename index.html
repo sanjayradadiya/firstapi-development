@@ -1,0 +1,223 @@
+<!doctype html>
+<head>
+    <title>css tutorial</title>
+ <style>
+     *{
+       box-sizing: border-box;
+     }
+     .container{
+         width:600px;
+         margin:34px auto;
+         padding: 10px;
+         background-color: rgb(247, 211, 95);
+          
+
+     }
+     header{
+       border:2px solid  firebrick;
+      margin:auto;
+      width: 1200px;
+    }
+     img{
+        
+        margin: auto;
+         width: 34px;
+         display:block;
+        }
+    h2{
+        text-align: center;
+        margin: 0px;
+        font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+     a{
+         text-decoration: none;
+         background-color: darkcyan;
+         border: none;
+         width:12px;
+         height: 24px;
+     }
+     a:hover{
+          color: darkmagenta;
+     }
+     .cont{
+         background-color: cadetblue;
+         padding: 6px;
+         border-radius: 3px;
+         cursor: pointer;
+         border: none;
+         font-size: 13px; 
+         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+         font-weight: bold;
+     }
+     .cont:hover{
+         background-color: darkturquoise;
+        
+         
+     }
+     .child-container{
+         /* background-color: indianred;
+         margin: 4px auto;
+         padding:14px;
+         border:4px solid rgb(39, 36, 27);
+        
+         width:33%;
+         box-sizing: border-box;
+         display: inline-block; */
+     }
+     .main-container{
+         /* width:1200px;
+        margin: auto; */
+     }
+     .contain{
+       /* border:2px solid blue;
+       height: 3444px; */
+     }
+     .box{
+          /* height:150px;
+          width: 150px;
+          border: 2px solid red;
+          display: inline-block;
+          margin: 4px; */
+     }
+     #box3{
+         /* position: absolute; */
+         /* top:34px;
+         left:34px; */
+         /* position: sticky;
+         top: 4px; */
+     }
+     .boxshdow{
+         display: flex;
+         
+     }
+     .shadow{
+         margin:3px;
+         padding: 30px;
+         border: 2px solid red;
+         background-color:cornsilk;
+         box-shadow:-2px 3px 10px green;
+     }
+     #card1{
+         box-shadow: 10px 10px 10px red inset;
+     }
+     h1{
+         text-shadow: 2px 2px 2px red;
+     }
+     .box11{
+        
+         background-color: var(--primary-color);
+         border:2px solid tomato;
+         margin: 3px;
+         width:100px;
+         box-shadow: 2px 2px 10px var(--box-color);
+     }
+     .container1{
+         max-width: var(--max-w);
+         display: flex;
+         background-color: var(--primary-color);
+     }
+     :root{
+         --max-w:555px;
+         --primary-color:blue;
+         --second-color:green;
+     }
+     .contain1{
+         background-color: greenyellow;
+         height: 100px;
+         width: 100px;
+         position: relative;
+         animation-name: zansi1;
+         animation-duration: 4s;
+         animation-iteration-count: 1;
+         /* animation-fill-mode: forwards;
+         animation-timing-function: ease;  */
+         /* animation: hardik2 4s ease-in 1s 4 backwords ; */
+     }
+     @keyframes zansi1{
+         0%{
+             top:0px;
+             left:0px;
+         }
+         25%{
+             top:100px;
+             left:0px;
+         }
+         75%{
+             top: 100px;
+             left: 100px;
+         }
+         100%{
+             top:0px;
+             left:100px;
+         }
+     }
+     /*    */
+ </style>
+</head>
+<body>
+    <div class="contain1">
+        box1
+    </div>
+    <header class="heading">
+        <img src="https://www.kindpng.com/picc/m/366-3664582_bob-bob-dummy-image-of-user-hd-png.png" alt="bobnotavailable">
+        <img src="https://images.pexels.com/photos/8197770/pexels-photo-8197770.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+        <h2>beautiful creation is nature</h2>
+    </header>
+    <!-- animation in css -->
+     
+      
+    <div class="main-container">
+        <div class="child-container">
+            <h3 class="heading">heading</h3>
+            <p>marry maria is best boxing fighter.she is comes from very poor family.she likes  boxing since kids ways.she is not able to pay boxing fees.so she can't take participate in boxing champiynship</p>
+        </div>
+        <div class="child-container">
+            <h3 class="heading">heading</h3>
+            <p>marry maria is best boxing fighter.she is comes from very poor family.she likes  boxing since kids ways.she is not able to pay boxing fees.so she can't take participate in boxing champiynship</p>
+        </div>
+        <div class="child-container">
+            <h3 class="heading">heading</h3>
+            <p>marry maria is best boxing fighter.she is comes from very poor family.she likes  boxing since kids ways.she is not able to pay boxing fees.so she can't take participate in boxing champiynship</p>
+        </div>
+    </div>
+    <div class="container">
+        <p>hi,good morning,i am from sutex bank of commrace college and i am </p>
+       <a href="#" class="link">read more</a>
+      <button class="cont">contact us</button>
+    </div>
+    <div class="contain">
+  <div class="box" id="box1">1</div>
+  <div class="box" id="box2">2</div>
+  <div class="box" id="box3">3</div>
+  <div class="box" id="box4">4</div>
+
+</div>
+<div class="boxshdow">
+    <div class="shadow" id="card1">
+        <h1>card1</h1>
+        <p>fgdgjuryiuhyuhfrujidfjieuoiu8798rujirjk</p>
+    </div>
+    <div class="shadow" id="card2">
+        <h1>card2</h1>
+    <p>gfdshubjfbhvjdffjdhnbnjndgknkd</p>
+</div>
+
+    <div class="shadow" id="card3">
+        <h1>card3</h1>
+        <p>yfgdsgdhjvryewrg75ey7u45h458nfrdhskjvnire86748</p>
+    </div>
+    <!-- variables in css - it is layouevariable   -->
+    <!-- variable is name of loction where we can store the value -->
+    <!-- var() value assign -->
+    <!-- globla variable-every where access -->
+      <div class="container1">
+          <div class="box11">box1</div>
+          <div class="box11">box2</div>
+          <div class="box11">box3</div>
+      </div>
+      
+</div>
+</body>
+</html>

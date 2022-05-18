@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>transition css</title>
+    <style>
+      /* .element {
+        height: 100px;
+      }
+      #element1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: darkgreen;
+        /* transition-property: background-color;
+        transition-duration: 4s;
+        transition-delay: 2s;
+        transition-timing-function: ease-out; */
+      /* transition: all 3s ease-in-out 1s; */
+      /* height: 100px;
+        width: 100px;
+      }
+      #element1:hover {
+        background-color: cadetblue;
+
+        height: 400px;
+        width: 400px;
+        font-size: 34px;
+        font-weight: bold;
+        border-radius: 200px; */
+      /* } */
+      /* div {
+        height: 100px;
+        width: 100px;
+        background-color: darkolivegreen;
+        animation: mymove 5s infinite;
+        position: relative;
+      } */
+      /* #box1 {
+        animation-timing-function: ease-out;
+      }
+      #box2 {
+        animation-timing-function: ease-in;
+      }
+      #box3 {
+        animation-timing-function: ease-in-out;
+      }
+      #box4 {
+        animation-timing-function: ease;
+      }
+      #box5 {
+        animation-timing-function: linear;
+      }
+      @keyframes mymove {
+        from {
+          left: 0px;
+        }
+        to {
+          left: 400px;
+        }
+      } */
+      * {
+        margin: 0px;
+        padding: 0px;
+      }
+      .items {
+        display: flex;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: darksalmon;
+      }
+      .item1 {
+        background-color: darkslategrey;
+        height: 400px;
+        width: 400px;
+        border-radius: 4px;
+        font-size: 25px;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border: 2px solid red;
+        /* transform: rotate(45deg); */
+        transition: all 1s ease-in-out;
+      }
+      .item1:hover {
+        /* transform: rotate(360deg); */
+        /* transform: skew(45deg); */
+        /* transform: translateX(120px); */
+        /* transform: translateY(120px);
+         */
+        transform: translate(120px, -120px);
+      }
+    </style>
+  </head>
+  <body>
+    <!-- <div class="element">
+      <div id="element1" class="element">
+        <p>this is paragraph</p>
+      </div>
+    </div> -->
+    <div id="box1">box1</div>
+    <div id="box2">box2</div>
+    <div id="box3">box3</div>
+    <div id="box4">box4</div>
+    <div id="box5">box5</div>
+    <div class="items">
+      <div class="item1">this is box</div>
+    </div>
+  </body>
+</html>

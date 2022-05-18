@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>flexbox tutorial</title>
+    <style>
+      .container {
+        height: 344px;
+        width: 100%;
+        border: 2px solid red;
+        display: flex;
+        /*
+        flex-direction: row;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        flex-direction: row-reverse;
+        /* flex-direction: column; */
+        /* flex-wrap: wrap;
+        flex-wrap: nowrap; */
+        /* justify-content: center; */
+        /* justify-content: space-around;
+        justify-content: space-between;
+        justify-content: space-evenly; */
+        /*  align-items: center;
+        align-items: flex-end;
+        align-items: flex-start;
+        align-items: stretch; */
+      }
+      .item {
+        width: 200px;
+        height: 200px;
+        background-color: tomato;
+        border: 2px solid red;
+        margin: 10px;
+        padding: 3px;
+      }
+      #item1 {
+        /* order: 3; */
+        /* flex-grow: 2;
+        flex-shrink: 3; */
+      }
+      #item2 {
+        /* order:1; */
+        flex-basis: 320px;
+      }
+      #item3 {
+        /* order: 23; */
+      }
+      html {
+        /* font-size: 25px;  */
+      }
+      .main-element {
+        /* width: 100vh;
+        height: 100vh; */
+      }
+      h1 {
+        text-align: center;
+      }
+      #first {
+        /* font-size: 3em;
+        padding: 2em; */
+      }
+      #second {
+        /* font-size: 3rem;
+        padding: 2rem; */
+      }
+      .box {
+        display: none;
+        font-size: 75px;
+        text-align: center;
+        background-color: yellowgreen;
+        border: 2px solid red;
+      }
+      @media (max-width: 300px) {
+        #box1 {
+          display: block;
+        }
+      }
+      @media (min-width: 300px) and (max-width: 300px) {
+        #box2 {
+          display: block;
+          background-color: blueviolet;
+        }
+      }
+      @media (min-width: 300px) and (max-width: 300px) {
+        #box3 {
+          display: block;
+          background-color: brown;
+        }
+      }
+      h2 {
+        background-color: cadetblue;
+        color: black;
+        text-align: center;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h3>this is flexbox</h3>
+    <div class="container">
+      <div class="item" id="item1">first box</div>
+      <div class="item" id="item2">second box</div>
+      <div class="item" id="item3">Third box</div>
+      <!-- <div class="item" id="item4">fourth box</div>
+      <div class="item" id="item5">fifth box</div>
+      <div class="item" id="item6">sixth box</div> -->
+    </div>
+    <div class="main-element">
+      <h1 id="first">this is first heading</h1>
+      <h1 id="second">this is second heading</h1>
+      <h1 id="third">this is third heading</h1>
+    </div>
+    <div class="box" id="box1">i am zansi</div>
+    <div class="box" id="box2">you are shivangi</div>
+    <div class="box" id="box3">you are dipika</div>
+    <div class="box" id="box4">you are shreya</div>
+
+    <h2>this is more on selectors</h2>
+  </body>
+</html>
